@@ -1,4 +1,4 @@
-#Leer 2 números y hacer la resta del mayor menos el menor.
+# Leer 2 números y hacer la resta del mayor menos el menor.
 num1 = float(input("Número 1: "))
 num2 = float(input("Número 2: "))
 
