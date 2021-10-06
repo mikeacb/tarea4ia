@@ -3,6 +3,7 @@
 # “Persona baja de estatura”, si la altura está entre 
 # 1.51 y 1.70 mts escriba el mensaje “Persona de estatura media” 
 # y si la altura es mayor a 1.71 escriba “Persona alta”.
+
 metros = float(input("Dame tu altura: "))
 if (metros <= 1.50):
     print("Persona de baja estatura")
