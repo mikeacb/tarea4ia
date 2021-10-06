@@ -18,21 +18,19 @@ def pesosAEuros(moneda):
 def eurosAPesos(moneda):
     return moneda * 23.83
 
-print("Cambio de moneda:")
-print("1) De pesos a dólares \n2) De dólares a pesos \n3) De pesos a euros \n4) De euros a pesos")
 while True:
-    ans = int(input("Eliga una opción de arriba 1, 2, 3 o 4: "))
+    ans = int(input("Cambio de moneda:\n1) De pesos a dólares \n2) De dólares a pesos \n3) De pesos a euros \n4) De euros a pesos \nOpción: "))
     if (ans == 1):
         moneda = int(input("¿Cuántos pesos a dolares? "))
-        print(pesosADolares(moneda))
+        print(f"Resultado: {pesosADolares(moneda)}\n")
     elif (ans == 2):
         moneda = int(input("¿Cuántos dólares a pesos? "))
-        print(dolaresAPesos(moneda))
+        print(f"Resultado: {dolaresAPesos(moneda)}\n")
     elif (ans == 3):
         moneda = int(input("¿Cuántos pesos a euros? "))
-        print(pesosAEuros(moneda))
+        print(f"Resultado: {pesosAEuros(moneda)}\n")
     elif (ans == 4):
         moneda = int(input("¿Cuántos euros a pesos? "))
-        print(eurosAPesos(moneda))
+        print(f"Resultado: {eurosAPesos(moneda)}\n")
     else:
         print("Error")

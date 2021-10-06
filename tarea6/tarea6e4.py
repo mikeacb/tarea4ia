@@ -12,5 +12,6 @@ while (ans == "si"):
         num2 = int(input("Número 2: "))
         suma = num1 + num2
         temp += suma
+        print("si para continuar, no para salir")
         ans = input("¿Desea continuar? ... ")
 print(f"Suma total: {temp}")
