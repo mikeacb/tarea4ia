@@ -14,4 +14,4 @@ while (ans == "si"):
         temp += suma
         print("si para continuar, no para salir")
         ans = input("¿Desea continuar? ... ")
-print(f"Suma total: {temp}")
+print(f"\nSuma total: {temp}")

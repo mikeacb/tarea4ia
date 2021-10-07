@@ -5,7 +5,6 @@ tabla = int(input("Que tabla del 1-10 deseas hacer: "))
 
 if (tabla > 0 and tabla <= 10):
     for i in range(1, 11):
-        res = tabla * i
-        print(res)
+        print(f"{tabla} * {i} = {tabla * i}")
 else:
     print("Error")

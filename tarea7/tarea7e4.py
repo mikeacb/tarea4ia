@@ -9,6 +9,6 @@ def pesosADolares(moneda):
 cambio = float(input("¿Cuántos pesos desea convertir? "))
 llamada = pesosADolares(cambio)
 euros = llamada * 0.87
-print(f"Pesos: {cambio}\n")
+print(f"\nPesos: {cambio}\n")
 print(f"Dólares: {llamada}\n")
 print(f"Euros: {euros}\n")

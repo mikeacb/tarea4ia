@@ -10,21 +10,21 @@ while True:
         print("Suma")
         num1 = int(input("Número 1: "))
         num2 = int(input("Número 2: "))
-        print(f"Resultado: {num1 + num2}\n")
+        print(f"\nResultado: {num1 + num2}\n")
     elif (ans == 2):
         print("Resta")
         num1 = int(input("Número 1: "))
         num2 = int(input("Número 2: "))
-        print(f"Resultado: {num1 - num2}\n")
+        print(f"\nResultado: {num1 - num2}\n")
     elif (ans == 3):
         print("Multiplicación")
         num1 = int(input("Número 1: "))
         num2 = int(input("Número 2: "))
-        print(f"Resultado: {num1 * num2}\n")
+        print(f"\nResultado: {num1 * num2}\n")
     elif (ans == 4):
         print("División")
         num1 = int(input("Número 1: "))
         num2 = int(input("Número 2: "))
-        print(f"Resultado: {num1 / num2}\n")
+        print(f"\nResultado: {num1 / num2}\n")
     else:
-        print("Error")
+        print("\nError\n")

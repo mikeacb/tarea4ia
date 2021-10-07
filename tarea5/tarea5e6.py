@@ -7,9 +7,7 @@ suma = 0
 for i in numeros:
     num = int(input("Número: "))
     numeros[i] = num
-
-for c in numeros:
-    if (c != 0):
-        suma += c
+    if (numeros[i] != 0):
+        suma += numeros[i]
 
 print(f"Suma: {suma}")
