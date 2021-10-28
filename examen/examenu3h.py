@@ -6,8 +6,8 @@
 # a = 2
 # b = 1
 
-a = 1
-b = 2
+a = int(input("Número para a: "))
+b = int(input("Número para b: "))
 print(f"Valores iniciales: \na = {a}\nb = {b}")
 c = a
 a = b
